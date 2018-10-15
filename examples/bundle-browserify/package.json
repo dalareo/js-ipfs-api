@@ -4,7 +4,7 @@
   "description": "Bundle js-ipfs-api with Browserify",
   "main": "index.js",
   "scripts": {
-    "start": "browserify index.js > bundle.js && http-server -a 127.0.0.1 -p 8888"
+    "start": "browserify index.js > bundle.js && http-server -a 0.0.0.0 -p 8888"
   },
   "keywords": [],
   "author": "Friedel Ziegelmayer",
