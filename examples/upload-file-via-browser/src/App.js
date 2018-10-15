@@ -8,7 +8,7 @@ class App extends React.Component {
     this.state = {
       added_file_hash: null
     }
-    this.ipfsApi = ipfsAPI('localhost', '5001')
+    this.ipfsApi = ipfsAPI('34.245.217.24', '5001')
 
     // bind methods
     this.captureFile = this.captureFile.bind(this)
